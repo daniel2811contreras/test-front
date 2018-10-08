@@ -22,6 +22,12 @@ Ethereal is a simply stater-kit architecture ReactJS based on Redux.
 
 ### Edit config
 view app/conf/conf,js
+# Example
+
+view example [test services](https://test-front-maps.herokuapp.com/login);
+
+  user:test@test.com
+  pass:123
 
 # Docs
 Ethereal is a simple starter-kit built in [ReactJS](https://reactjs.org/) based on [Redux](https://redux.js.org/) architecture that uses a number of open source projects to work properly: (you can find it on ` package.json`)
@@ -47,11 +53,8 @@ Ethereal is a simple starter-kit built in [ReactJS](https://reactjs.org/) based 
 ### TODO
 - Complete docs
 - Testing
-  user:test@test.com
-  pass:123
-
 ## License
 - MIT
 ---
-**Enjoy the ride, love the ending**
-by [Daniel Contreras Web Developer](https://github.com/djdantras)
+**Change the world Innovating,**
+created by [Daniel Contreras Web Developer](https://github.com/djdantras)
