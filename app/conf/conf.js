@@ -9,7 +9,7 @@ const conf = {
 }
 
 /* Enviroment on development */
-conf['dev']['base_url'] = 'http://127.0.0.1';
+conf['dev']['base_url'] = 'https://test-front-maps.herokuapp.com';
 // conf['dev']['base_url'] = 'http://prueba-test-user.herokuapp.com';
 // conf['dev']['port'] = '';
 conf['dev']['port'] = '';
@@ -18,7 +18,7 @@ conf['dev']['apiServer'] = 'http://127.0.0.1:2000/';
 conf['dev']['fileName'] = 'all_dist';
 conf['dev']['minify'] = true;
 // conf['dev']['mediaApi'] = 'https://prueba-test-user.herokuapp.com/dist/';
-conf['dev']['mediaApi'] = 'http://127.0.0.1/dist';
+conf['dev']['mediaApi'] = 'https://test-front-maps.herokuapp.com/dist';
 conf['dev']['keyCrypto'] = 'K30s2018G4@';
 conf['dev']['mockServer'] = true;
 
