@@ -1,0 +1,53 @@
+.__button-status-bot {
+  border: none;
+  font-size: 17px;
+  cursor: pointer;
+
+  &.__status-bot-active {
+    color: @green_general;
+  }
+
+  &.__status-bot-inactive {
+    color: @red_button;
+  }
+
+  &.__status-bot-pending {
+    color: @orange_general;
+  }
+}
+
+.__bot-notify {
+  position: relative;
+  width: 300px;
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  background-color: rgba(0,0,0,.9);
+  color: #fff;
+  font-weight: 600;
+  transform: translateY(200%);
+  font-size: 13px;
+  padding: 5px 11px 5px 50px;
+  border-radius: 5px;
+  .animate();
+
+  .__bot-notify-icon {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    text-align: center;
+    font-size: 25px;
+    color: @blue_dark;
+  }
+
+  &.__is-info {
+    border-bottom: 4px solid @blue_dark;
+  }
+
+  &.is-active{
+    transform: translateY(0);
+  }
+}

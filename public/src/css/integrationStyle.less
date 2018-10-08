@@ -1,0 +1,149 @@
+.__integration {
+  .__is-right {
+    position: absolute;
+    right: 10px;
+  }
+
+  .__integration_icon {
+    text-align: center;
+    font-size: 4em;
+    cursor: pointer;
+  }
+
+  .__integration_text {
+    text-align: center;
+
+    h4 {
+      margin-bottom: 1em;
+      font-weight: 500;
+    }
+  }
+
+  .switchBtn {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+
+    input {
+      display: none;
+    }
+
+    .slide {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #ccc;
+      -webkit-transition: 0.4s;
+      transition: 0.4s;
+      padding: 8px;
+      color: #fff;
+    }
+
+    .slide:before {
+      position: absolute;
+      content: "";
+      height: 16px;
+      width: 16px;
+      left: 5px;
+      bottom: 4px;
+      background-color: white;
+      -webkit-transition: 0.4s;
+      transition: 0.4s;
+    }
+
+    input:checked + .slide {
+      background-color: #209cee;
+      padding-left: 40px;
+    }
+
+    input:focus + .slide {
+      box-shadow: 0 0 1px #01aeed;
+    }
+
+    input:checked + .slide:before {
+      // -webkit-transform: translateX(26px);
+      // -ms-transform: translateX(26px);
+      // transform: translateX(26px);
+      left: 30px;
+    }
+
+    .slide.round {
+      border-radius: 24px;
+    }
+
+    .slide.round:before {
+      border-radius: 50%;
+    }
+  }
+}
+
+.__modal-title {
+  i {
+    font-size: 2em;
+  }
+
+  label {
+    font-size: 1.4em;
+  }
+}
+
+.__integration-content {
+  .__integration-text {
+    font-size: 14px;
+    margin-bottom: 15px;
+    font-weight: 300;
+    color: @gray_text_n;
+
+    br {
+      display: block;
+      width: 100%;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+
+    a {
+      color: @blue_text;
+      text-decoration: none;
+    }
+
+    ul {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      list-style: none;
+
+      li {}
+    }
+  }
+
+  .__integration-form {
+    .field {
+      .label {
+        color: @gray_text_n;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: 600;
+      }
+
+      .control {
+        input {
+          font-size: 15px;
+          border-radius: 0;
+          box-shadow: none;
+        }
+      }
+    }
+    .__integration-btn{
+      border-radius: 0px;
+      background: @blue_dark;
+      font-size: 14px;
+    }
+    .__integration-no-btn{
+      border-radius: 0px;
+      font-size: 14px;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "id": 123456,
+    "name": "",
+    "username": "",
+    "img": "",
+    "payload": []
+  },
+  {
+    "id": 45563,
+    "name": "Jose alejandro",
+    "username": "",
+    "img": "http://127.0.0.1:3100/dist/img/profile_3.jpg",
+    "payload": []
+  }
+]
